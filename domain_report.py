@@ -10,8 +10,8 @@ from openpyxl.chart import (
 class Domain_chart:
 
     def report_domain(self):
-        exist_path_val = 'C:/Users/vinagend/OneDrive - Cisco/Desktop/test_data/jkl.xlsx'
-        new_path_val = 'C:/Users/vinagend/OneDrive - Cisco/Desktop/test_data/bala.xlsx'
+        exist_path_val = 'Excel Existing file path'
+        new_path_val = 'New Excel save file path'
 
         workbook = xlrd.open_workbook(exist_path_val, "rb")
         required_data = []
